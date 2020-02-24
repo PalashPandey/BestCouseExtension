@@ -1,3 +1,4 @@
-# Create a Chrome extension to modify a website's HTML or CSS
+# Google chrome extension to show Drexel professor's quality metrics on Term Masters Schedule (Course List) and Banner (Registration Portal). 
+# Future upgrades:
+##	Add professor-course difficulty scores 
 
-See post: https://blog.lateral.io/2016/04/create-chrome-extension-modify-websites-html-css/
