@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+
+  "name": "best course extension",
+  "version": "0.1.0",
+  "description": "Extension to show professor's ratings/ difficulty on Web TMS. ",
+  "permissions": ["https://solr-aws-elb-production.ratemyprofessors.com//"],
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "js": ["jquery.min.js" ,"content.js" ],
+    "matches": ["https://termmasterschedule.drexel.edu/webtms_du/*", "https://banner.drexel.edu/registration/ssb/classRegistration/classRegistration"]
+  }]
+
+}
